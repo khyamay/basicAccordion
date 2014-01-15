@@ -10,8 +10,8 @@ $(function() {
 			tPara.trigger("showParagraph");
 		}
 	accordion.on("showParagraph", "p", function(){
-		paragraphs.stop(true, true).slideUp("normal");
-		$(this).stop(true, true).slideDown("normal");
+		paragraphs.stop(true, true).slideUp();
+		$(this).stop(true, true).slideDown();
 	});
 		
 	});
